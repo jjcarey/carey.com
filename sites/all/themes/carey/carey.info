@@ -1,0 +1,32 @@
+name = Carey
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/carey.normalize.css
+stylesheets[all][] = css/carey.hacks.css
+stylesheets[all][] = css/carey.styles.css
+stylesheets[all][] = css/carey.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/carey.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding] = Branding
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer] = Footer
